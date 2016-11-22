@@ -26,5 +26,15 @@ namespace Week10.Controllers
 
             return View();
         }
+
+        public ActionResult Location()
+        {
+            // set message to be displayed in the view
+            ViewBag.Message = "We will show a map here soon.";
+
+            // load the new view
+            return View();
+        }
+
     }
 }
